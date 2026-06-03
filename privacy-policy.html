@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="横竖同拍 - 隐私政策">
+    <title>横竖同拍 · 隐私政策</title>
+    <style>
+        :root {
+            --bg: #f5f5f7;
+            --card-bg: #ffffff;
+            --text: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --accent: #007aff;
+            --border: rgba(0,0,0,0.08);
+            --radius: 14px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+                         'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 20px 20px 60px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 48px 20px 36px;
+        }
+
+        .header .icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #007aff, #5856d6);
+            border-radius: 16px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            box-shadow: 0 4px 16px rgba(0,122,255,0.25);
+        }
+
+        .header .icon svg {
+            width: 32px;
+            height: 32px;
+            fill: #fff;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            margin-bottom: 6px;
+        }
+
+        .header .subtitle {
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        /* Card */
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--radius);
+            padding: 28px 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        .card h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card h2 .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+
+        .card p:last-child { margin-bottom: 0; }
+
+        .card ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        .card ul li {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        /* Update date */
+        .update-date {
+            text-align: center;
+            font-size: 13px;
+            color: #aeaeb2;
+            padding: 10px 0 30px;
+        }
+
+        /* Email link */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #aeaeb2;
+        }
+
+        .footer a { color: #aeaeb2; }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .container { padding: 12px 12px 40px; }
+            .header { padding: 32px 12px 24px; }
+            .header h1 { font-size: 24px; }
+            .card { padding: 22px 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+            </div>
+            <h1>横竖同拍 隐私政策</h1>
+            <p class="subtitle">TwinCam Privacy Policy</p>
+        </header>
+
+        <!-- 信息收集 -->
+        <section class="card">
+            <h2><span class="dot"></span>信息收集</h2>
+            <p>「横竖同拍」是一款纯本地化应用，<strong>我们不收集任何个人信息</strong>。</p>
+            <p>
+                您使用 App 拍摄的照片和视频仅保存在您的设备本地存储中，或由您手动选择保存至系统相册。
+                我们不会将这些数据传输到任何服务器。
+            </p>
+        </section>
+
+        <!-- 相机/相册权限 -->
+        <section class="card">
+            <h2><span class="dot"></span>相机与相册权限</h2>
+            <p>为实现拍摄功能，App 需要向您请求以下权限：</p>
+            <ul>
+                <li><strong>相机权限</strong> — 用于实时预览和拍摄照片/视频。</li>
+                <li><strong>麦克风权限</strong> — 用于视频录制时采集声音（可选）。</li>
+                <li><strong>相册权限</strong> — 用于将拍摄的内容导出到系统相册（仅当您主动使用导出功能时）。</li>
+            </ul>
+            <p>
+                您可以在 iOS 系统的「设置 → 隐私」中随时管理这些权限。
+                拒绝授予权限不会影响 App 的其他功能。
+            </p>
+        </section>
+
+        <!-- 数据存储 -->
+        <section class="card">
+            <h2><span class="dot"></span>数据存储</h2>
+            <ul>
+                <li>所有拍摄的照片和视频存储在您的 iPhone 本地沙盒中（TwinCamStorage 目录）。</li>
+                <li>App 不上传任何用户数据到云端或第三方服务器。</li>
+                <li>删除 App 时，本地存储的素材也会被一并删除。</li>
+                <li>Pro 购买状态通过 Apple StoreKit 管理，交易记录由 Apple 保管。</li>
+            </ul>
+        </section>
+
+        <!-- 第三方服务 -->
+        <section class="card">
+            <h2><span class="dot"></span>第三方服务</h2>
+            <p>
+                本 App 使用 Apple StoreKit 处理内购交易。关于 Apple 如何处理您的信息，
+                请参阅 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple 隐私政策</a>。
+            </p>
+            <p>除此之外，本 App 不使用任何第三方分析工具、广告 SDK 或数据追踪服务。</p>
+        </section>
+
+        <!-- 年龄限制 -->
+        <section class="card">
+            <h2><span class="dot"></span>年龄限制</h2>
+            <p>本 App 适合所有年龄段用户。我们不会故意收集 13 岁以下儿童的个人信息。</p>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="card">
+            <h2><span class="dot"></span>联系方式</h2>
+            <p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
+            <p style="margin-top:12px">
+                📧 <strong>邮箱：</strong><a href="mailto:mjxlzhang@gmail.com">mjxlzhang@gmail.com</a>
+            </p>
+        </section>
+
+        <!-- 政策更新 -->
+        <section class="card">
+            <h2><span class="dot"></span>政策更新</h2>
+            <p>我们可能会不时更新本隐私政策。更新后的政策将发布在此页面，建议您定期查阅。</p>
+            <p>继续使用本 App 即表示您同意本隐私政策的条款。</p>
+        </section>
+
+        <p class="update-date">最后更新日期：2026 年 6 月 3 日</p>
+
+    </div>
+
+    <div class="nav-links" style="display:flex;justify-content:center;gap:20px;padding:16px">
+        <a href="privacy-policy.html">隐私政策</a>
+        <span style="color:#ccc">|</span>
+        <a href="terms.html">用户协议</a>
+        <span style="color:#ccc">|</span>
+        <a href="support.html">技术支持</a>
+    </div>
+
+    <div class="footer">
+        © 2026 横竖同拍
+    </div>
+</body>
+</html>
